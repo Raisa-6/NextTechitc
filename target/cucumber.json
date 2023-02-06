@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify item added in cart",
+        "description": "",
+        "id": "this-feature-is-for-cart-functionality;verify-item-added-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 863478000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "MetaLaunch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.metalaunch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 573831700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Nokia lumia",
+            "match": {
+              "location": "Cart1.click_Nokia_lumia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7332743500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click add to cart",
+            "match": {
+              "location": "Cart1.click_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299346900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click click cart",
+            "match": {
+              "location": "Cart1.click_click_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4877783100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify item added in cart",
+            "match": {
+              "location": "Cart1.verify_item_added_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@cart"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for cart functionality",
+    "description": "",
+    "id": "this-feature-is-for-cart-functionality",
+    "keyword": "Feature",
+    "uri": "Cart1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can login in with valid credentials",
+        "description": "",
+        "id": "this-feature-is-for-login-functionality;verify-user-can-login-in-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208042600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "MetaLaunch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.metalaunch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7050219300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Login Link",
+            "match": {
+              "location": "Login.click_Login_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160901300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Username and Enter Password and Click Login button",
+            "match": {
+              "location": "Login.enter_Username_and_Enter_Password_and_Click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5994414900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can login in with valid credentials",
+            "match": {
+              "location": "Login.verify_user_can_login_in_with_valid_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@cart"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for login functionality",
+    "description": "",
+    "id": "this-feature-is-for-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
