@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T00:23:58 EST" name="Default suite" finished-at="2022-12-13T00:24:11 EST" duration-ms="12796">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.example.com.cucumber.example.TestrunnerClass@3e08ff24]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-13T00:23:58 EST" name="Default test" finished-at="2022-12-13T00:24:11 EST" duration-ms="12796">
+      <class name="com.cucumber.example.com.cucumber.example.TestrunnerClass">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.example.com.cucumber.example.TestrunnerClass@3e08ff24]" started-at="2022-12-13T00:23:58 EST" name="setUpClass" finished-at="2022-12-13T00:23:58 EST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.example.com.cucumber.example.TestrunnerClass@3e08ff24]" started-at="2022-12-13T00:23:58 EST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-13T00:24:10 EST" duration-ms="12507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This Feature is for cart functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.example.com.cucumber.example.TestrunnerClass@3e08ff24]" started-at="2022-12-13T00:24:10 EST" name="tearDownClass" finished-at="2022-12-13T00:24:11 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.example.com.cucumber.example.TestrunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
