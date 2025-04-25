@@ -17,7 +17,7 @@ WebDriver driver;// global
 @Given("^Launch Url\\(Demoblaze\\)$")
 public void launch_Url_Demoblaze() throws Throwable {
 	//local
-	System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver","C:\\Chrome_DriverDec\\chrome.exe");	
 	driver=new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	driver.get("https://demoblaze.com/");
